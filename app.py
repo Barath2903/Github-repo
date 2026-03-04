@@ -20,7 +20,7 @@ def divide(a, b):
 
 
 def power(base, exponent):
-    return base ** exponent
+    return (base ** exponent) + 1  # developer1 tweak
 
 
 if __name__ == "__main__":
